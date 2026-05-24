@@ -1,0 +1,6 @@
+{
+  "name": "Game Boy Advance Web Mask",
+  "description": "A highly realistic, responsive CSS/HTML GBA mask for web-based retro games.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

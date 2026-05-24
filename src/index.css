@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Bumper press animation */
+.l-bumper:active { transform: rotate(-16deg) !important; }
+.r-bumper:active { transform: rotate(16deg) !important; }
+
+/* D-Pad 3D tilt */
+.dpad-cross { transition: transform 0.06s; transform-origin: 50% 50%; }
+.dpad-cross.tilt-u { transform: perspective(300px) rotateX(5deg); }
+.dpad-cross.tilt-d { transform: perspective(300px) rotateX(-5deg); }
+.dpad-cross.tilt-l { transform: perspective(300px) rotateY(-5deg); }
+.dpad-cross.tilt-r { transform: perspective(300px) rotateY(5deg); }

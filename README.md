@@ -4,13 +4,13 @@ A highly realistic, responsive GBA shell mask for web-based retro games. Built w
 
 ## Features
 
-- **Transparent Glacier Shell** — SVG-based GBA silhouette with semi-transparent fill
-- **L/R Bumper Triggers** — Rotating bumpers with press animation
-- **D-Pad with 3D Tilt** — Perspective tilt effect on press
-- **A/B Buttons** — Realistic press feedback
-- **Screen Bezel** — Gradient border, CRT scanlines, screen glare
-- **Responsive** — Scales fluidly with `@container` queries
-- **Drop-in Ready** — Place your game canvas/iframe inside the screen container
+- **Transparent Glacier Shell** 鈥?SVG-based GBA silhouette with semi-transparent fill
+- **L/R Bumper Triggers** 鈥?Rotating bumpers with press animation
+- **D-Pad with 3D Tilt** 鈥?Perspective tilt effect on press
+- **A/B Buttons** 鈥?Realistic press feedback
+- **Screen Bezel** 鈥?Gradient border, CRT scanlines, screen glare
+- **Responsive** 鈥?Scales fluidly with `@container` queries
+- **Drop-in Ready** 鈥?Place your game canvas/iframe inside the screen container
 
 ## Quick Start
 
@@ -28,13 +28,11 @@ src/
   App.tsx       # GBA shell mask component
   index.css     # Tailwind + global styles
   main.tsx      # Entry point
-public/
-  GBA shell.svg # User-designed shell silhouette
 ```
 
 ## Customization
 
-The GBA shell shape is defined in `public/GBA shell.svg`. To change it:
+The GBA shell shape is defined in `GBA shell.svg`. To change it:
 
 1. Edit the SVG in your design tool (CorelDRAW, Figma, etc.)
 2. Export the path data
